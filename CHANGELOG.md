@@ -1,7 +1,7 @@
 # Changelog
 
-All notable changes to `:package_name` will be documented in this file.
+All notable changes to `laravel-stubs` will be documented in this file.
 
-## 1.0.0 - 202X-XX-XX
+## 1.0.0 - 2022-05-15
 
-- initial release
+- Initial release

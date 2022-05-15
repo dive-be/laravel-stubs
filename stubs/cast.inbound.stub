@@ -1,0 +1,13 @@
+<?php declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use Illuminate\Contracts\Database\Eloquent\CastsInboundAttributes;
+
+class {{ class }} implements CastsInboundAttributes
+{
+    public function set($model, string $key, $value, array $attributes)
+    {
+        return $value;
+    }
+}
