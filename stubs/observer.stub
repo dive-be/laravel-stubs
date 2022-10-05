@@ -4,7 +4,7 @@ namespace {{ namespace }};
 
 use {{ namespacedModel }};
 
-class {{ class }}
+final class {{ class }}
 {
     public function created({{ model }} ${{ modelVariable }})
     {

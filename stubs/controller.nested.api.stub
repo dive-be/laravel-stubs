@@ -6,7 +6,7 @@ use {{ namespacedModel }};
 use Illuminate\Http\Request;
 use {{ namespacedParentModel }};
 
-class {{ class }}
+final class {{ class }}
 {
     public function index({{ parentModel }} ${{ parentModelVariable }})
     {

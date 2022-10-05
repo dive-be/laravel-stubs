@@ -4,7 +4,7 @@ namespace {{ namespace }};
 
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
-class {{ class }} extends ResourceCollection
+final class {{ class }} extends ResourceCollection
 {
     public function toArray($request): array
     {

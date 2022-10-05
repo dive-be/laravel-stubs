@@ -4,7 +4,7 @@ namespace {{ namespace }};
 
 use Illuminate\Contracts\Database\Eloquent\CastsInboundAttributes;
 
-class {{ class }} implements CastsInboundAttributes
+final class {{ class }} implements CastsInboundAttributes
 {
     public function set($model, string $key, $value, array $attributes)
     {
