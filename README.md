@@ -23,7 +23,7 @@ composer require --dev dive-be/laravel-stubs
 
 ## Usage
 
-Publish the subs using:
+Publish the stubs using:
 
 ```php
 php artisan dive-stubs:publish
